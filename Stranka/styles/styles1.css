@@ -1,0 +1,73 @@
+:root{
+    font-size: 20px;
+    color: black;
+    font-family: 'Bellota Text'
+    
+}   
+
+body::-webkit-scrollbar {
+    width: 0.3rem;
+}
+body::-webkit-scrollbar-track{
+    background:  rgb(196, 196, 196);
+}
+body::-webkit-scrollbar-thumb{
+    background: whitesmoke;
+}
+body{
+    background-color: rgb(196, 196, 196);
+}
+
+header{
+    text-align: center;
+    margin-top: 10%;
+}
+main{
+    width: 26%;
+    font-size: 0.75rem;
+    margin: auto;
+    margin-top: 3rem;
+    
+    
+}
+#about{
+    text-align: left;
+}
+
+#contacts{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    
+}
+#contacts_1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+img{
+    height: 14rem;
+    margin-left: 3rem;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    margin-top: 50px;
+    font-size: 20px;
+}
+li{
+    list-style: none;  
+}   
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background-color: rgb(196, 196, 196);
+    color:white;
+    border-radius: 3px;
+}
+
