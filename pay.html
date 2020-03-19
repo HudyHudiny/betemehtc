@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Ветементс Shop
+    </title>
+    <link rel="stylesheet" href="styles/styles2.css">
+    <link href="https://fonts.googleapis.com/css?family=Bellota+Text&display=swap" rel="stylesheet">
+    <script 
+        src="https://kit.fontawesome.com/6558914dc4.js" crossorigin="anonymous">
+    </script>
+    
+    
+</head>
+
+<body>
+    
+    <main >
+       <header>
+            <div id="text">
+                ветементс американ инц.   
+            </div>
+            <ul>
+                <li>
+                    <a href="index.html"> Home</a>
+                </li>
+                <li>
+                    <a href="about.html"> About</a>
+                </li>
+                <li>
+                    <a href="contacts.html"> Contacts</a>
+                </li>
+                <li>
+                    <a href="shop.html"> Shop</a>
+                </li>
+            </ul>
+        </header> 
+        
+        
+       <section>
+           <div id="apology">
+        <p>We are sorry, our shop has not yet been set up. </p>
+        <p>Come back later. </p>
+           
+
+           </div>
+
+       </section>
+       <footer>
+            <b> <span id="datetime"></span></b>
+            <script>
+            var dt = new Date();
+            document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +"/"+ (("0"+(dt.getMonth()+1)).slice(-2)) +"/"+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2)) +" CET";
+            </script>
+       </footer>
+    </main>
+</body>
+
+</html>

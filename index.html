@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Ветементс америткан инц.
+    </title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Bellota+Text&display=swap" rel="stylesheet">
+    <script 
+        src="https://kit.fontawesome.com/6558914dc4.js" crossorigin="anonymous">
+    </script>
+    
+    
+</head>
+
+<body> 
+    <header style="font:PT Sans ;">
+        ветементс американ инц.   </br>  
+        <span id="datetime"></span> СЕТ
+        <script>
+        var dt = new Date();
+        document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +"/"+ (("0"+(dt.getMonth()+1)).slice(-2)) +"/"+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2));
+        </script>
+    </header>    
+    
+    
+    <section>
+        <nav>
+            <ul>
+                <li>
+                    <a href="contacts.html"><span>  Contacts</span></a> 
+                </li>
+                <li>  
+                    <a href="shop.html"><span>  Shop</span></a> </li>
+                <li>
+                    <a href="about.html"><span>  About</span></a>
+                </li>
+                <div id="social">
+                    <a href="https://twitter.com/Betements" target="_blank" >    <i class="fab fa-twitter-square"></i>   </a>
+                    <a href="https://www.instagram.com/l.ukashudec/" target="_blank" >    <i class="fab fa-instagram-square"></i> </a>
+                    <a href="https://open.spotify.com/playlist/66qPtoVrkibN6MoFEHc71P" target="_blank" >    <i class="fab fa-spotify"></i>      </a>
+                </div>
+            </ul>
+        </nav>
+   </section>
+
+</body>
+
+</html>
+
+
+<!--
+    meno stranky 
+    ветементс американ инц.
+
+
+    body::-webkit-scrollbar {
+    width: 0.3rem;
+}
+body::-webkit-scrollbar-track{
+    background: whitesmoke ;
+}
+body::-webkit-scrollbar-thumb{
+    background: black;
+}
+--> 

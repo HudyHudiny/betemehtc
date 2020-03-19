@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Ветементс Shop
+    </title>
+    <link rel="stylesheet" href="styles/styles2.css">
+    <link href="https://fonts.googleapis.com/css?family=Bellota+Text&display=swap" rel="stylesheet">
+    <script 
+        src="https://kit.fontawesome.com/6558914dc4.js" crossorigin="anonymous">
+    </script>
+    
+    
+</head>
+
+<body> 
+    <main>
+        <header>
+            <div id="text">
+                ветементс американ инц.   
+            </div>
+            
+        <ul>
+            <li>
+                <a href="index.html"> Home</a>
+            </li>
+            <li>
+                <a href="about.html"> About</a>
+            </li>
+            <li>
+                <a href="contacts.html"> Contacts</a>
+            </li>
+            <li>
+                <a id="pay" href="pay.html">
+                    <i class="fas fa-shopping-cart">
+                    </i> 
+                </a>
+            </li>
+        </ul>
+        </header>   
+
+        <section>
+            <!--<nav>
+
+            </nav> -->
+
+            <div id="items">
+                <div id="row">
+
+                    <div id="photo">
+                        <a id="price" href="pay.html" > 
+                            <img src="styles/photos/pants.png" alt="image not found"> 
+                            690$
+                        </a>
+                    </div>
+
+                    <div id="photo">
+                        <a id="price" href="pay.html" > 
+                            <img src="styles/photos/hoodie.png" alt="image not found">
+                            600$ 
+                        </a>
+                    </div>
+                    
+                    <div id="photo">
+                        <a id="price" href="pay.html" >
+                            <img src="styles/photos/shirt.png" alt="image not found">
+                             400$ 
+                        </a>
+                    </div>
+
+                </div>
+                <div id="row">
+
+                    <div id="photo">
+                        <a id="price" href="pay.html" >
+                            <img src="styles/photos/tshirt.png" alt="image not found">
+                            250$
+                        </a>
+                    </div>
+
+                    <div id="photo">
+                        <a id="price" href="pay.html" > 
+                            <img src="styles/photos/pants_2.png" alt="image not found">
+                        300$
+                        </a>
+                    </div>
+
+                    <div id="photo">
+                        <a id="price" href="pay.html" >
+                            <img src="styles/photos/cap.png" alt="image not found">
+                            200$
+                        </a>
+                    </div>
+
+                </div>
+                <div id="row">
+
+                    <div id="photo">
+                        <a id="price" href="pay.html" >     
+                            <img src="styles/photos/case.png" alt="image not found">
+                            100$ 
+                        </a>
+                    </div>
+
+                    <div id="photo">
+                        <a id="price" href="pay.html" >
+                            <img src="styles/photos/cap_2.png" alt="image not found">
+                            300$
+                        </a>
+                    </div>
+
+                    <div id="photo">
+                       <a id="price" href="pay.html" >
+                            <img src="styles/photos/hoodie_2.png" alt="image not found">
+                            1,500$
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+       <b> <span id="datetime"></span></b>
+        <script>
+        var dt = new Date();
+        document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +"/"+ (("0"+(dt.getMonth()+1)).slice(-2)) +"/"+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2)) +" CET";
+        </script>
+        </footer>
+    
+    
+
+    </main> 
+</body>
+</html>
